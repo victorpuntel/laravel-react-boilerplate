@@ -26,4 +26,4 @@ open browser and check the following address
 - [ ] User Login
 - [ ] User Register
 - [ ] Jest
-- [ ] Sentry
+- [X] Sentry
