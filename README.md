@@ -24,5 +24,4 @@ open browser and check the following address
 - [ ] Redux
 - [X] Laravel Sanctum
 - [X] User Login Route
-- [ ] User Register Route
 - [X] Sentry
