@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 export default function Index(){
 
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        console.log('log do effect', count);
-
+        console.log('Count: ', count);
     }, [count]);
 
     return (

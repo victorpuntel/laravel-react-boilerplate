@@ -21,9 +21,8 @@ open browser and check the following address
 
 ### TODO:
 
-- [ ] Add Redux
-- [ ] Add JWT
-- [ ] User Login
-- [ ] User Register
-- [ ] Jest
+- [ ] Redux
+- [X] Laravel Sanctum
+- [X] User Login Route
+- [ ] User Register Route
 - [X] Sentry
