@@ -1,14 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import useStore from '../../stores/countStore';
 
 export default function Index(){
-
-    const [count, setCount] = useState(0);
-
-    useEffect(() => {
-        console.log('Count: ', count);
-    }, [count]);
 
     return (
         <>
@@ -17,7 +11,8 @@ export default function Index(){
                 About
             </Link>
             <br/>
-            <button onClick={() => setCount(count+1)}>Add count</button>
+            <p>Count: {useStore(state => state.count)}</p>
+            <button onClick={useStore(state => state.increaseCount)}>Add count</button>
         </>
     )
 }

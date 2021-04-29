@@ -17,11 +17,11 @@
 
 open browser and check the following address
 
-`http://localhost:8000`
+`http://localhost:3000`
 
 ### TODO:
 
-- [ ] Redux
 - [X] Laravel Sanctum
 - [X] User Login Route
 - [X] Sentry
+- [X] Zustand
